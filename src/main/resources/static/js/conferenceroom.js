@@ -69,6 +69,24 @@ function register() {
 	sendMessage(message);
 }
 
+function autoRegister() {
+	//name = document.getElementById('name').value;
+	name = new Date().getTime();
+	//var room = document.getElementById('roomName').value;
+	var room = 'testingRoom';
+
+	document.getElementById('room-header').innerText = 'ROOM ' + room;
+	document.getElementById('join').style.display = 'none';
+	document.getElementById('room').style.display = 'block';
+
+	var message = {
+		id : 'joinRoom',
+		name : name,
+		room : room,
+	}
+	sendMessage(message);
+}
+
 function onNewParticipant(request) {
 	receiveVideo(request.name);
 }
