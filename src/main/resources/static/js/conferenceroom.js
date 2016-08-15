@@ -24,6 +24,7 @@ window.onbeforeunload = function() {
 };
 
 ws.onmessage = function(message) {
+	$('#numberOfUser').html(''+$('[id*="video-"]').length+' User online');
 	var parsedMessage = JSON.parse(message.data);
 	console.info('Received message: ' + message.data);
 
@@ -64,7 +65,7 @@ function register() {
 	var message = {
 		id : 'joinRoom',
 		name : name,
-		room : room,
+		room : room
 	}
 	sendMessage(message);
 }
@@ -76,15 +77,19 @@ function autoRegister() {
 	var room = 'testingRoom';
 
 	document.getElementById('room-header').innerText = 'ROOM ' + room;
-	document.getElementById('join').style.display = 'none';
 	document.getElementById('room').style.display = 'block';
 
 	var message = {
 		id : 'joinRoom',
 		name : name,
-		room : room,
+		room : room
 	}
-	sendMessage(message);
+	setTimeout(
+		function(){
+			sendMessage(message);
+		},
+		1000
+	);
 }
 
 function onNewParticipant(request) {

@@ -1,6 +1,7 @@
-/media/cuong/DATA/Subjects/Summer Research/kurento-tutorial-java/kurento-group-call/src/main/java/org/kurento/tutorial/groupcall/CallHandler.java
-/media/cuong/DATA/Subjects/Summer Research/kurento-tutorial-java/kurento-group-call/src/main/java/org/kurento/tutorial/groupcall/Room.java
-/media/cuong/DATA/Subjects/Summer Research/kurento-tutorial-java/kurento-group-call/src/main/java/org/kurento/tutorial/groupcall/UserSession.java
-/media/cuong/DATA/Subjects/Summer Research/kurento-tutorial-java/kurento-group-call/src/main/java/org/kurento/tutorial/groupcall/GroupCallApp.java
-/media/cuong/DATA/Subjects/Summer Research/kurento-tutorial-java/kurento-group-call/src/main/java/org/kurento/tutorial/groupcall/RoomManager.java
-/media/cuong/DATA/Subjects/Summer Research/kurento-tutorial-java/kurento-group-call/src/main/java/org/kurento/tutorial/groupcall/UserRegistry.java
+/home/vcvcntt/Kurento/kurento-tutorial-java/kurento-group-call/src/main/java/org/kurento/tutorial/groupcall/CallHandler.java
+/home/vcvcntt/Kurento/kurento-tutorial-java/kurento-group-call/src/main/java/org/kurento/tutorial/groupcall/RoomManager.java
+/home/vcvcntt/Kurento/kurento-tutorial-java/kurento-group-call/src/main/java/org/kurento/tutorial/groupcall/UserController.java
+/home/vcvcntt/Kurento/kurento-tutorial-java/kurento-group-call/src/main/java/org/kurento/tutorial/groupcall/UserSession.java
+/home/vcvcntt/Kurento/kurento-tutorial-java/kurento-group-call/src/main/java/org/kurento/tutorial/groupcall/GroupCallApp.java
+/home/vcvcntt/Kurento/kurento-tutorial-java/kurento-group-call/src/main/java/org/kurento/tutorial/groupcall/Room.java
+/home/vcvcntt/Kurento/kurento-tutorial-java/kurento-group-call/src/main/java/org/kurento/tutorial/groupcall/UserRegistry.java
